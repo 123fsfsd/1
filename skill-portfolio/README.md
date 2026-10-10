@@ -17,3 +17,11 @@
 输出位于当前工作目录下的 `stata_output`，同名输出会被覆盖。
 首次生成系数图需要联网从 SSC 安装 `coefplot`。
 该脚本不包含随机森林模型的训练代码。
+
+## 报告式证明配图
+
+- `regression_evidence_demo.png`：包含回归结果表、系数置信区间、残差诊断和 Stata 核心代码。
+- `random_forest_evidence_demo.png`：包含测试集指标、特征重要性、预测效果和 Python 核心代码。
+- `evidence_collage_demo.png`：两页报告式拼图，适合放在个人作品集封面或社交平台。
+
+以上三张报告图均明确标注“演示数据 / DEMO”，不能冒充真实项目结果。替换成自己的数据并重新运行后，才可作为真实项目材料。
